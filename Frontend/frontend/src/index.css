@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#cart{
+  margin: 40px;
+  border: 2px solid lightblue;
+}
+#content{
+  height: 70vh;
+}
+
+#loginContainer{
+  display: flex;
+  justify-content: center;
+}
+
+#total{
+  height: 13vh;
+  border-top: 2px solid orange;
+}
+#cart-items{
+  border-right: 2px solid rgb(31, 142, 194);
+  overflow: scroll;
+  height: 70vh;
+}
+
+#searchContainer{
+  height: 10vh;
+  width: 41vw;
+  margin: 14px;
+  border-bottom: 1px solid rgb(43, 153, 226);
+  border-radius:10px ;
+}
+
+#orderRow{
+  background-color: cornsilk;
+  height: 18vh;
+  margin-top: 20vh;
+  padding: 50px;
+}
+
+#orderRow:hover{
+  border-left: 6px solid darkolivegreen;
+}
+
+#orderbtn{
+  margin-top: 8px;
+  margin-left: 66vh;
+}
+
+textarea{
+  margin: 6vh;
+  width: 70vh;
+  height: 30vh;
+}
+#serach{
+  margin: 4px;
+}
+
+.nav-link:hover{
+  background-color: skyblue;
+}
+
+#serachButton{
+  margin-left: 130px;
+}
+
+#cart-item{
+  height: 16vh;
+  margin-top: 29px;
+  padding: 6px;
+  border: 2px solid skyblue;
+  border-radius: 5px;
+}
+
+form {
+  padding: 35px;
+  background-color: darkgrey;
+  width: 103vh;
+}
+
+select{
+  width: 64px;
+}
+
+.row{
+  height: 44vh;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,15 @@
+C:\Users\satyamtiwari\source\repos\E-Com-API\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\satyamtiwari\source\repos\E-Com-API\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\satyamtiwari\source\repos\E-Com-API\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\satyamtiwari\source\repos\E-Com-API\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+C:\Users\satyamtiwari\source\repos\E-Com-API\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\satyamtiwari\source\repos\E-Com-API\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\satyamtiwari\source\repos\E-Com-API\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\satyamtiwari\source\repos\E-Com-API\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\satyamtiwari\source\repos\E-Com-API\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\satyamtiwari\source\repos\E-Com-API\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
+C:\Users\satyamtiwari\source\repos\E-Com-API\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json
+C:\Users\satyamtiwari\source\repos\E-Com-API\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
+C:\Users\satyamtiwari\source\repos\E-Com-API\DAL\bin\Debug\netcoreapp3.1\Shared.dll
+C:\Users\satyamtiwari\source\repos\E-Com-API\DAL\bin\Debug\netcoreapp3.1\Shared.pdb
+C:\Users\satyamtiwari\source\repos\E-Com-API\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
