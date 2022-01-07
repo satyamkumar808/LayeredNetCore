@@ -42,7 +42,7 @@ namespace E_Com_API.Controllers
                 return Ok(new { message = "User Register Succesfull" });
             }
 
-            return BadRequest(new { message = "User Email already registerd" });
+            return Ok(new { message = "User Email already registerd" });
         }
 
         [HttpPost("authenticate")]

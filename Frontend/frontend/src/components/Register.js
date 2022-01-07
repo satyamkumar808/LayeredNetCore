@@ -13,10 +13,19 @@ export const Register = () => {
     const handleSubmit =(e) =>{
         e.preventDefault();
         authService.register(userName,Email,Password)
-        .then(navigate("/login"))
-        .catch((err)=>{
-          console(err.message)
-        })
+                        .then((res)=>{
+                          if(res.data.message === "User Email already registerd"){
+                            alert(res.data.message)
+                          }else{
+                            alert(res.data.message);
+                            navigate("/login");
+                          }
+                        })
+                            .catch((err)=>{
+                              if(err.response){
+                                console.log(err,"yy")
+                              }
+                            })               
     }
 
   return(

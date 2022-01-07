@@ -102,9 +102,10 @@ export const Cart = () => {
 
         if(total && estDel && address && orderItems){
 
-            const response = await ApiCalls.createOrders(order);
-            console.log(response)
-            alert("Order Placed Successfully");
+            var responce = await ApiCalls.createOrders(order)
+            if(responce === "Successfully order placed"){
+                console.log(responce,"iiii")
+            }
 
             setTotal(0);
             setEstDel(0);
