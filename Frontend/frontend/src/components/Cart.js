@@ -24,7 +24,7 @@ export const Cart = () => {
                 setEstDel(product.deliveryTime)
             }
         });
-        console.log(estDel)
+        console.log(estDel,"handel time")
     }
 
     const callBack =(productTotal, model,pId, quantity)=>{
@@ -45,7 +45,7 @@ export const Cart = () => {
             })
             setTotal(totalVal)
 
-            console.log(totalArray,"err1")
+            console.log(totalArray,"callback if")
         }else{
             proTotal.model = model;
             proTotal.total = productTotal
@@ -53,12 +53,12 @@ export const Cart = () => {
                 totalVal = ele.total+totalVal;
             })
             setTotal(totalVal)    
-            console.log(totalArray,"err")
+            console.log(totalArray,"callback else")
             
             orderItem.productId = pId
             orderItem.amount = parseInt(quantity)
 
-            console.log(orderItems)  
+            console.log(orderItems,"orderItem else callback")  
         }
 
     }
@@ -88,7 +88,7 @@ export const Cart = () => {
             orderArray.push(orderItem)
             setOredrItems(orderArray)
         }else{
-            console.log("Fill model number")
+            alert("Item already in cart");
         }
     }
 
@@ -125,7 +125,7 @@ export const Cart = () => {
             navigate("/login")
         }
         handleTime();
-    })
+    },[cartItems])
 
     return (
         <div className= "container" id="cart">

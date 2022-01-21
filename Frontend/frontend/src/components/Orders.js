@@ -28,7 +28,7 @@ const Orders = () => {
             navigate("/login")
         }
         fetch();
-    })
+    },[])
 
     return (
         <div className="container">

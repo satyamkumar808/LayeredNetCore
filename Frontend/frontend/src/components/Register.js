@@ -29,13 +29,14 @@ export const Register = () => {
     }
 
   return(
-    <div className="container" id="loginContainer">
+    <div className="container" data-testid="testRegister" id="loginContainer">
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label htmlFor="Email" className="form-label">
             Email address
           </label>
           <input
+            data-testid="testEmailInput"
             type="email"
             className="form-control"
             id="Email"

@@ -7,7 +7,7 @@ export const Login = () => {
     const [userName, setUserName] = useState("")
     const [Password, setPassword] = useState("")
 
-    let navigate = useNavigate();
+    const navigate = useNavigate();
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -19,8 +19,8 @@ export const Login = () => {
     }
 
   return (
-    <div className="container" id="loginContainer">
-      <form onSubmit={handleSubmit}>
+    <div className="container" data-testid="testLogin" id="loginContainer">
+      <form onSubmit={handleSubmit} data-testid="testLoginForm">
         <div className="mb-3">
           <label htmlFor="userName" className="form-label">
             User Name
@@ -51,7 +51,7 @@ export const Login = () => {
             id="Password"
           />
         </div>
-        <button type="submit" className="btn btn-primary">
+        <button type="submit" data-testid="testLoginFormButton" className="btn btn-primary">
           Submit
         </button>
       </form>
